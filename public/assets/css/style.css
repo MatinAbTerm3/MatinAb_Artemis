@@ -1,0 +1,82 @@
+:lang(fa)
+    {
+        direction: rtl;
+        text-align: right;
+    }
+:lang(en)
+    {
+        direction: ltr;
+        text-align: left;
+    }
+body
+    {
+        font-family: myFont;
+        font-size: 18px;
+        background-color: black;
+        color: azure;
+    }
+@font-face
+    {
+        font-family: myFont;
+        src: url("../fonts/Vazir.woff")format('woff');
+        src: url("../fonts/Vazir.woff2")format('woff2');
+        src: url("../fonts/Vazir.eot")format('eot');
+        src: url("../fonts/Vazir.ttf")format('ttf');
+    }
+.sliderimg
+    {
+        width:1920px ;
+        height:700px ;
+    }
+.Hha
+    {
+        padding: 5px;
+        text-align: center;
+    }
+.btn-primary
+    {
+        background-color:	goldenrod;
+        border-color:		gold;
+        color: black;
+    }
+.btn-primary:hover
+    {
+        background-color: limegreen;
+    }
+.contactfrm
+    {
+        width: 25%;
+        margin: auto;
+    }
+.form-control
+    {
+        background-color: black;
+        border-width:  0px 0px 2px 0px;
+        border-radius: 0px;
+        color: deeppink;
+        font-size: 20px;
+    }
+.form-control:focus
+    {
+        background-color: black;
+        color: azure;
+    }
+.input-group-text
+    {
+        background-color: black;
+        color: white;
+        border-width: 0px 0px 2px 0px;
+        border-radius: 0px;
+    }
+.radioClass
+{
+    display: none;
+}
+.card
+{
+	margin : 10px;
+	padding : 5px;
+	background-color : black;
+	border-color: white;
+	
+}
